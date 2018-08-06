@@ -37,7 +37,6 @@
 
         el.instance = loading
         el.$el = loading.$el
-        el.makeStyle = {}
 
         binding.value && toggleLoading(el, binding)
       },
